@@ -29,9 +29,7 @@ A clean, responsive, single-page personal portfolio website built with pure HTML
 
 ## 🚀 Live Demo
 
-> _Add your deployed URL here (e.g., GitHub Pages, Netlify, Vercel)_
-> 
-> **[View Live →](#)**
+> **[View Live →] https://rednarock016.github.io/Portfolio-website/
 
 ---
 
