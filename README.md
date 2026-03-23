@@ -94,7 +94,7 @@ Horizontal progress bar UI showing proficiency levels in:
 | JavaScript | 10% |
 | C++ | 10% |
 | PHP | ~1% |
-| React JS | Learning (0%) |
+| React JS | 0% |
 
 ### 4. 🗂 Projects
 A 6-card animated project grid. Each card shows a thumbnail image, project name, and on hover reveals the description, tech stack badges, and links to live demo and GitHub.
