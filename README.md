@@ -30,7 +30,7 @@ A clean, responsive, single-page personal portfolio website built with pure HTML
 
 ## 🚀 Live Demo
 
-> **[View Live →] https://rednarock016.github.io/Portfolio-website/
+> **[View Live →] https://rednarock016.github.io/Portfolio-website/index.html
 
 ---
 
