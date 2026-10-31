@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ranjit Hazra is a developer from Howrah, India, exploring web development, Python, and data science. View selected projects and get in touch.">
+    <meta name="keywords" content="Ranjit Hazra, developer, portfolio, Python, web development, data science, data analyst, data analysis, Howrah">
+    <meta name="author" content="Ranjit Hazra">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ranjit Hazra | Developer Portfolio">
+    <meta property="og:description" content="Explore Ranjit Hazra's projects, skills, and learning journey in web development and data science.">
+    <meta property="og:url" content="https://rednarock016.github.io/Portfolio-website/">
+    <meta property="og:image" content="https://rednarock016.github.io/Portfolio-website/Profile%20pic.png">
     <title>Ranjit Hazra | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
@@ -56,7 +64,7 @@
 
     <header>
         <div class="logo">
-            <img src="Ranjit_Hazra_RK__Flyers__Landscape__-removebg-preview.png"
+            <img src="assets/Ranjit_Hazra_RK__Flyers__Landscape__-removebg-preview.png"
                 alt="logo">
         </div>
         <div class="navDiv">
@@ -73,6 +81,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skill">Skill</a></li>
             <li><a href="#project">Project</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
@@ -158,21 +167,19 @@
                 </div>
             </div>
             <div class="avatar">
-                <img src="Profile pic.png" alt="Profile image">
+                <img src="assets/Profile pic.png" alt="Profile image">
             </div>
         </div>
 
-        <div id="about" data-aos="fade-up">
+        <section id="about" data-aos="fade-up">
             <h1 class="title">ABOUT ME</h1>
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                    Hello! I'm Ranjit Hazra, a passionate developer. I love creating beautiful and functional web applications. 
-                    My journey in web development started with a curiosity to understand how things work on the internet, 
-                    and it has grown into a full-fledged career. I enjoy learning new technologies and challenging myself with complex problems.
+                    Hello! I'm Ranjit Hazra, a developer from Howrah, India. Curiosity about how the web works led me to explore programming, build projects, and keep learning. I enjoy turning ideas into useful, accessible web experiences.
                     </p>
                     <p>
-                    When I'm not coding, you can find me exploring new places, reading tech blogs, or enjoying a good cup of coffee.
+                    I'm studying for a BCA with a specialization in Data Science. Outside coding, I enjoy exploring new places, reading about technology, and learning more about data and the web.
                     </p>
                 </div>
                 <div class="about-details">
@@ -186,51 +193,64 @@
                         <strong>Location:</strong> <span>Howrah | India</span>
                     </div>
                 </div>
+                <div class="about-actions"><a class="action-button" href="assets/Ranjit-Hazra-ATS.pdf" download><i class="fa-solid fa-download" aria-hidden="true"></i> Download resume (PDF)</a></div>
             </div>
-        </div>
+        </section>
 
-        <div id="skill" data-aos="fade-up">
-            <h1 class="title">SKILL</h1>
-            <div class="listSkill">
-                <div class="item">
-                    <div class="name">HTML5</div>
-                    <div class="evaluate" style="--point:80%"></div>
+        <div id="skill">
+            <h1 class="title">SKILLS</h1>
+            <div class="skills-groups">
+                <div class="skill-group" data-aos="fade-up">
+                    <h2 class="skill-group-title">OS</h2>
+                    <div class="skill-items">
+                        <div class="skill-card"><i class="fa-brands fa-windows" aria-hidden="true"></i><span>Windows</span></div>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="name">CSS3</div>
-                    <div class="evaluate" style="--point:50%"></div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="skill-group-title">Tools</h2>
+                    <div class="skill-items">
+                        <div class="skill-card office-word"><span class="office-mark" aria-hidden="true">W</span><span>Word</span></div>
+                        <div class="skill-card office-excel"><span class="office-mark" aria-hidden="true">X</span><span>Excel</span></div>
+                        <div class="skill-card office-powerpoint"><span class="office-mark" aria-hidden="true">P</span><span>PowerPoint</span></div>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="name">C</div>
-                    <div class="evaluate" style="--point:40%"></div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="skill-group-title">IDE</h2>
+                    <div class="skill-items">
+                        <div class="skill-card"><span>VS Code</span></div>
+                        <div class="skill-card"><span>Spyder</span></div>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="name">C++</div>
-                    <div class="evaluate" style="--point:10%"></div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="300" style="justify-content: center;">
+                    <h2 class="skill-group-title" >Languages</h2>
+                    <div class="skill-items">
+                        <div class="skill-card"><i class="fa-brands fa-python" aria-hidden="true"></i><span>Python</span></div>
+                        <div class="skill-card"><span class="letter-mark">C</span><span>C</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-html5" aria-hidden="true"></i><span>HTML5</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><span>CSS3</span></div>
+                        <div class="skill-card"><span class="letter-mark">R</span><span>R</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-js" aria-hidden="true"></i><span>JavaScript</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-php" aria-hidden="true"></i><span>PHP</span></div>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="name">PYTHON</div>
-                    <div class="evaluate" style="--point:60%"></div>
-                </div>
-                <div class="item">
-                    <div class="name">Javascript</div>
-                    <div class="evaluate" style="--point:10%"></div>
-                </div>
-                <div class="item">
-                    <div class="name">PHP</div>
-                    <div class="evaluate" style="--point:01%"></div>
-                </div>
-                <div class="item">
-                    <div class="name">React JS</div>
-                    <div class="evaluate" style="--point:00%"></div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="skill-group-title" >Library</h2>
+                    <div class="skill-items">
+                        <div class="skill-card"><i class="fa-brands fa-numpy" aria-hidden="true"></i><span>NumPy</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-pandas" aria-hidden="true"></i><span>Pandas</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-matplotlib" aria-hidden="true"></i><span>Matplotlib</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-seaborn" aria-hidden="true"></i><span>Seaborn</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-sklearn" aria-hidden="true"></i><span>Scikit-learn</span></div>
+                        <div class="skill-card"><i class="fa-brands fa-ggplot2" aria-hidden="true"></i><span>ggplot</span></div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="project" data-aos="fade-up">
+        <section id="project" data-aos="fade-up">
             <h1 class="title">PROJECTS</h1>
             <div class="listProject">
                 <div class="item" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="Prortfolio website.png" alt="Portfolio Website">
+                    <img src="assets/Prortfolio website.png" alt="Portfolio Website">
                     <div class="name">Portfolio Website</div>
                     <div class="overlay">
                         <p class="project-desc">A personal portfolio built to showcase my skills and projects.</p>
@@ -240,13 +260,13 @@
                             <span>JS</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://rednarock016.github.io/Portfolio-website/" target="_blank" rel="noopener noreferrer" aria-label="Open live portfolio"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/Rednarock016/Portfolio-website" target="_blank" rel="noopener noreferrer" aria-label="Portfolio source on GitHub"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="item" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="ProGEN.png" alt="ProGEN Password Manager">
+                    <img src="assets/ProGEN.png" alt="ProGEN Password Manager">
                     <div class="name">ProGEN</div>
                     <div class="overlay">
                         <p class="project-desc">A secure password generator and manager to safely store your credentials.</p>
@@ -258,13 +278,12 @@
                             <span>Flask</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/Rednarock016" target="_blank" rel="noopener noreferrer" aria-label="Find ProGEN on GitHub"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="item" data-aos="zoom-in" data-aos-delay="300">
-                    <img src="img3.jpg" alt="TaskMaster App">
+                    <img src="assets/img3.jpg" alt="TaskMaster App">
                     <div class="name">TaskMaster App</div>
                     <div class="overlay">
                         <p class="project-desc">A productivity app to manage daily tasks efficiently.</p>
@@ -273,13 +292,12 @@
                             <span>Django</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/Rednarock016" target="_blank" rel="noopener noreferrer" aria-label="Find TaskMaster on GitHub"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="item" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="img4.jpg" alt="Weather Dashboard">
+                    <img src="assets/img4.jpg" alt="Weather Dashboard">
                     <div class="name">Weather Dashboard</div>
                     <div class="overlay">
                         <p class="project-desc">Real-time weather application consuming public APIs.</p>
@@ -288,13 +306,12 @@
                             <span>API</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/Rednarock016" target="_blank" rel="noopener noreferrer" aria-label="Find Weather Dashboard on GitHub"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="item" data-aos="zoom-in" data-aos-delay="500">
-                    <img src="img5.jpg" alt="E-Commerce UI">
+                    <img src="assets/img5.jpg" alt="E-Commerce UI">
                     <div class="name">E-Commerce UI</div>
                     <div class="overlay">
                         <p class="project-desc">Modern and responsive frontend for an online store.</p>
@@ -303,13 +320,12 @@
                             <span>Tailwind</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/Rednarock016" target="_blank" rel="noopener noreferrer" aria-label="Find E-Commerce UI on GitHub"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="item" data-aos="zoom-in" data-aos-delay="600">
-                    <img src="img6.jpg" alt="Chat Application">
+                    <img src="assets/img6.jpg" alt="Chat Application">
                     <div class="name">Chat Application</div>
                     <div class="overlay">
                         <p class="project-desc">Real-time messaging platform with web sockets.</p>
@@ -318,15 +334,42 @@
                             <span>Socket.IO</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/Rednarock016" target="_blank" rel="noopener noreferrer" aria-label="Find Chat Application on GitHub"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="blog" data-aos="fade-up">
+            <h1 class="title">LEARNING NOTES</h1>
+            <p class="section-intro">A few topics I'm exploring and hope to write about as I learn.</p>
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <span class="blog-label">Web development</span>
+                    <h2>Building a portfolio with vanilla web technologies</h2>
+                    <p>Notes on structuring a responsive page with semantic HTML, CSS, and a little JavaScript.</p>
+                </article>
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <span class="blog-label">Python</span>
+                    <h2>What I'm learning while building with Python</h2>
+                    <p>Small experiments, lessons from debugging, and ideas for making projects more useful.</p>
+                </article>
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <span class="blog-label">Data science</span>
+                    <h2>Getting started with data analysis</h2>
+                    <p>A learning log for exploring Python's data tools as part of my BCA studies.</p>
+                </article>
+            </div>
+        </section>
+        <section id="contact" data-aos="fade-up"">
             <h1 class="title">Contact</h1>
+            <p class="section-intro">Have a question or an opportunity in mind? Send me a message.</p>
+            <form class="contact-form" action="https://formspree.io/f/mgaaldgn" method="POST">
+                <label for="contact-name">Name</label><input id="contact-name" name="name" autocomplete="name" required>
+                <label for="contact-email">Email</label><input id="contact-email" name="email" type="email" autocomplete="email" required>
+                <label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="5" required></textarea>
+                <button class="action-button" type="submit">Send message <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+            </form>
             <div class="contact-social">
 
                 <!-- Facebook -->
@@ -390,7 +433,7 @@
                 </a>
 
             </div>
-        </div>
+        </section>
     </div>
 
     <!-- Back to Top Button -->
@@ -400,55 +443,7 @@
 
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- Custom Scripts -->
-    <script>
-        // Initialize AOS
-        AOS.init({
-            duration: 800,
-            once: true,
-            offset: 100,
-        });
-
-        // Preloader
-        window.addEventListener('load', () => {
-            const preloader = document.getElementById('preloader');
-            if(preloader) {
-                preloader.style.opacity = '0';
-                setTimeout(() => {
-                    preloader.style.display = 'none';
-                }, 500);
-            }
-        });
-
-        // Theme Toggle Logic
-        const themeCheckbox = document.getElementById('theme-checkbox');
-        
-        // Determine saved theme or default
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'dark') {
-            document.body.classList.add('dark-mode');
-            themeCheckbox.checked = true;
-        }
-
-        themeCheckbox.addEventListener('change', () => {
-            document.body.classList.toggle('dark-mode');
-            if (document.body.classList.contains('dark-mode')) {
-                localStorage.setItem('theme', 'dark');
-            } else {
-                localStorage.setItem('theme', 'light');
-            }
-        });
-
-        // Back to Top Button visibility
-        const backToTopBtn = document.getElementById('back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-    </script>
 </body>
+<script src="script.js"></script>
 
 </html>
