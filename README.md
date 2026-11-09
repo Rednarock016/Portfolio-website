@@ -177,7 +177,7 @@ This site is deployed on **GitHub Pages**. To deploy your own:
 1. Push the code to a GitHub repository
 2. Go to **Settings** → **Pages**
 3. Set source to the `main` branch
-4. Your site will be live at `https://<username>.github.io/<repo-name>/`
+4. Your site will be live at `https://rednarock016.github.io/Portfolio-website/`
 
 ---
 
